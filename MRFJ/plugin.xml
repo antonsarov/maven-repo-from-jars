@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.eclipse.ui.main.toolbar ">
+         <toolbar
+               id="MRFJ.toolbar1">
+            <command
+                  commandId="MRFJ.command1"
+                  icon="img/icon.ico"
+                  style="push">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="com.antonsarov.mrfj.jface.LaunchWizardHandler"
+            id="MRFJ.command1"
+            name="Launch MRFJ">
+      </command>
+   </extension>
+
+</plugin>

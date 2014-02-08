@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.antonsarov.mrfjfeature"
+      label="MRFJ"
+      version="1.0.0.qualifier"
+      provider-name="Anton Sarov">
+
+   <description>
+      Enables the creation of a project specific Maven repository from JAR files.
+   </description>
+
+   <copyright>
+      Initial version by Anton Sarov
+   </copyright>
+
+   <license url="">
+      Use this plugin as much as you want, for whatever you want.
+   </license>
+
+   <plugin
+         id="com.antonsarov.mrfj"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
